@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+a:link,
+a:visited {
+  /* unvisited link */
+  color: black; /* overrides the default color for unvisited link */
+  background-color: #1ebba3;
+  display: contents;
+  padding: 10px 20px;
+  border: 2px solid #f43d05;
+  text-decoration: none; /* none - Removes the default underline on links*/
+  text-align: center;
+  font: 14px Arial, sans-serif;
+}
+a:hover,
+a:active {
+  background-color: #9c6ae1;
+  border-color: #1aeb07;
+}
+
+h2 {
+  text-align: center;
+}
+header {
+  background-color: #f0f0f0;
+  padding: 10px;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
+nav li {
+  margin: 10px;
+  display: inline;
+}
+
+main {
+  padding: 20px;
+}
+
+#featured {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.product {
+  margin-bottom: 20px;
+  text-align: center;
+  border: 1px solid #ccc;
+  padding: 10px;
+  cursor: pointer;
+  -ms-transform-origin-x: 10px;
+}
+.product:hover {
+  background-color: antiquewhite;
+}
+.product img {
+  max-width: 100%;
+  height: auto;
+}
+
+footer {
+  background-color: #f0f0f0;
+  padding: 10px;
+  text-align: center;
+}
+.button {
+  background-color: chocolate;
+}
+.button:hover {
+  background-color: chartreuse;
+  opacity: 0.5;
+}
